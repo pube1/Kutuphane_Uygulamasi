@@ -20,7 +20,7 @@ namespace kutuphaneUygulamasi
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\VT_kutuphane.accdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Resources\\VT_kutuphane.accdb");
 
         public void verileriGoster(string veriler)
         {

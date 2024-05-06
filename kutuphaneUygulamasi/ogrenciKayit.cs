@@ -67,7 +67,7 @@ namespace kutuphaneUygulamasi
             else { return s; }
 
         }
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\VT_kutuphane.accdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Resources\\VT_kutuphane.accdb");
         private void button1_Click(object sender, EventArgs e)
         {
             

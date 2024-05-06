@@ -21,7 +21,7 @@ namespace kutuphaneUygulamasi
         private void button1_Click(object sender, EventArgs e)
         {
 
-            OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Application.StartupPath + "\\VT_kutuphane.accdb");
+            OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Resources\\VT_kutuphane.accdb");
             baglanti.Open();
             OleDbCommand komut = new OleDbCommand("select * from adminler", baglanti);
             OleDbDataReader oku = komut.ExecuteReader();
