@@ -23,7 +23,7 @@ To set up the project on your local machine, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/pube1/Kutuphane_Uygulamasi.git```
+   git clone https://github.com/pube1/Kutuphane_Uygulamasi.git
    
 2. Open the project in Visual Studio.
 3. Configure the database connection settings in the App.config file of the Kutuphane_Uygulamasi solution according to your database.
